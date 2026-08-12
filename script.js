@@ -54,6 +54,11 @@ contactForm.addEventListener("submit", function (event) {
 
 });
 
+// Always open the page from the top when refreshed
+window.addEventListener("load", function () {
+    window.scrollTo(0, 0);
+});
+
 
 /* ========================================
    SCROLL ANIMATION
