@@ -1,12 +1,3 @@
-/* ========================================
-   AURORA X5 - JAVASCRIPT
-======================================== */
-
-
-/* ========================================
-   MOBILE NAVIGATION
-======================================== */
-
 // Get navigation elements
 const menuButton = document.querySelector(".menu-button");
 const navLinks = document.querySelector(".nav-links");
@@ -18,10 +9,7 @@ menuButton.addEventListener("click", function () {
 
 });
 
-
-/* ========================================
-   CLOSE MENU AFTER CLICKING A LINK
-======================================== */
+// CLOSE MENU AFTER CLICKING A LINK
 
 const links = document.querySelectorAll(".nav-links a");
 
@@ -36,9 +24,7 @@ links.forEach(function (link) {
 });
 
 
-/* ========================================
-   CONTACT FORM
-======================================== */
+// CONTACT FORM
 
 const contactForm = document.querySelector("#contact-form");
 
@@ -60,9 +46,7 @@ window.addEventListener("load", function () {
 });
 
 
-/* ========================================
-   SCROLL ANIMATION
-======================================== */
+// SCROLL ANIMATION
 
 const sections = document.querySelectorAll(
     ".features-container, .about-container, .contact-container"
